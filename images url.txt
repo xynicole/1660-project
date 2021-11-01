@@ -1,0 +1,5 @@
+hadoop: https://hub.docker.com/r/xynicole/hadoop
+jupyter:  https://hub.docker.com/r/xynicole/jupyter
+sonarqube: https://hub.docker.com/r/xynicole/sonarqube
+sonarscanner: https://hub.docker.com/r/xynicole/sonarscanner
+spark: https://hub.docker.com/r/xynicole/spark
