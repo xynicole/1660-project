@@ -1,5 +1,14 @@
 hadoop: https://hub.docker.com/r/xynicole/hadoop
+https://hub.docker.com/r/bde2020/hadoop-namenode
+https://hub.docker.com/r/bde2020/hadoop-datanode
+
 jupyter:  https://hub.docker.com/r/xynicole/jupyter
+https://hub.docker.com/r/jupyter/base-notebook/
+
+
 sonarqube: https://hub.docker.com/r/xynicole/sonarqube
+https://hub.docker.com/_/sonarqube
 sonarscanner: https://hub.docker.com/r/xynicole/sonarscanner
+
 spark: https://hub.docker.com/r/xynicole/spark
+https://hub.docker.com/r/bitnami/spark
