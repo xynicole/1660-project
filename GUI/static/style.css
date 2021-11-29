@@ -1,0 +1,25 @@
+
+h1{
+	color:rgb(85, 161, 248);
+	font-size:45px;
+	text-align:center;
+	margin-top:50px;
+}
+
+.container{
+    text-align: center;
+    display: inline-block;
+}
+
+  .a:link, a:visited {
+    background-color: #dc9cf5;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  .a:hover, a:active {
+    background-color: #dc9cf5;
+  }
