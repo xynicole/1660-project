@@ -37,11 +37,36 @@ HDFS_CONF_dfs_namenode_datanode_registration_ip___hostname___check=false
 10. click endpoints to access the web app
 
 # Ports for each one
-Web app: 5000
+Web app: 5000 
+
 Hadoop: 9870 and 9000
+
 Jupyter: 8888
+
 Sonarqube: 9000
+
 Spark: 8080
+
+
+# images
+web app: 
+https://hub.docker.com/r/xynicole/1660final
+
+hadoop:
+https://hub.docker.com/r/bde2020/hadoop-namenode
+https://hub.docker.com/r/bde2020/hadoop-datanode
+
+jupyter: 
+https://hub.docker.com/r/jupyter/base-notebook/
+
+
+sonarqube: 
+https://hub.docker.com/_/sonarqube
+
+
+spark:
+https://hub.docker.com/r/bitnami/spark
+
 
 
 
