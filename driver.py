@@ -1,3 +1,5 @@
+import webbrowser
+
 def main():
     message = '''Welcome to Big Data Processing Application
     Please type the number that corresponds to which application you would like to run:
@@ -5,6 +7,7 @@ def main():
     2. Apache Spark
     3. Jupyter Notebook
     4. SonarQube and SonarScanner
+    5. quit
 
     '''
 
@@ -24,6 +27,8 @@ def main():
         elif choice == 4:
             print("Running SonarQube and SonarScanner")
             sonar()
+        elif choice == 5:
+            quit()
         else:
             print("Please enter a valid number > ")
             print(message)
@@ -31,16 +36,16 @@ def main():
 
 
 def hadoop():
-    pass
+    return webbrowser.open('http://35.226.26.81:9870/')
 
 def spark():
-    pass
+    return webbrowser.open('http://35.223.120.201:8080/')
 
 def jupyter():
-    pass
+    return webbrowser.open('http://35.239.218.131:8888/')
 
 def sonar():
-    pass
+    return webbrowser.open('http://34.133.43.239:9000/')
 
 if __name__ == '__main__':
     main()
