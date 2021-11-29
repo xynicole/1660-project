@@ -12,6 +12,10 @@ https://www.youtube.com/watch?v=RgIFpedW3fY
 docker pull image_name
 docker tag image_name gcr.io/project_id/image_name 
 docker push gcr.io/project_id/image_name 
+for my web app I build docker first and then push to my docker hub
+ docker build -t xynicole/project . --platform linux/amd64
+docker push xynicole/project
+
 ```
 3. click hamburger button and go to Kubernets Engine, create a Clusters
 4. click hamburger button and go to Contain Registry
