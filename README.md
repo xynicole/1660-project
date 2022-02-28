@@ -1,4 +1,9 @@
 # Toolbox project
+* build a microservice-based application that would allow the  users to run Apache Hadoop, Spark, Jupyter Notebooks, SonarQube and  SonarScanner without having to install any of them.  
+* have one main microservice that acts as the entry point for your overall application
+* docker containers deployed to Kubernetes cluster
+* Kubernetes cluster deployed to Google Cloud Platform
+* 
 ## DEMO
 https://www.youtube.com/watch?v=RgIFpedW3fY
 
